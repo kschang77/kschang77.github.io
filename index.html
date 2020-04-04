@@ -12,11 +12,13 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
     <link rel="stylesheet" herf="css/style.css" />
+    <script src="https://kit.fontawesome.com/98adf16936.js" crossorigin="anonymous"></script>
+  </head>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <nav
-      class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target"
-      id="ftco-navbar"
+      class="navbar navbar-expand-lg navbar-dark bg-dark site-navbar-target"
+      id="ksc-navbar"
     >
       <div class="container">
         <a class="navbar-brand" href="index.html">KC</a>
@@ -24,15 +26,15 @@
           class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
           type="button"
           data-toggle="collapse"
-          data-target="#ftco-nav"
-          aria-controls="ftco-nav"
+          data-target="#ksc-nav"
+          aria-controls="ksc-nav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="oi oi-menu"></span> Menu
         </button>
 
-        <div class="collapse navbar-collapse" id="ftco-nav">
+        <div class="collapse navbar-collapse" id="ksc-nav">
           <ul class="navbar-nav nav ml-auto">
             <li class="nav-item">
               <a href="#home-section" class="nav-link"><span>Home</span></a>
@@ -87,7 +89,11 @@
               >
                 <h2>I am Kasey Chang</h2>
                 <h4>
-                  A fullstack engineer and web developer<br />
+                  A
+                  <a href="#fullstack-section"
+                    ><span>fullstack engineer</span></a
+                  >
+                  and web developer<br />
                   in San Francisco
                 </h4>
               </div>
@@ -100,7 +106,8 @@
               >
                 <h2>I am Kasey Chang</h2>
                 <h4>
-                  An IT support generalist engineer<br />
+                  An <a href="#it-support-section">IT support</a> generalist
+                  engineer<br />
                   in San Francisco
                 </h4>
               </div>
@@ -113,7 +120,8 @@
               >
                 <h2>I am Kasey Chang</h2>
                 <h4>
-                  A database developer and data engineer<br />
+                  A <a href="#data-section">data engineer</a> and database app
+                  developer<br />
                   in San Francisco
                 </h4>
               </div>
@@ -154,7 +162,7 @@
           </div>
           <div class="col-md-6 col-lg-7 pl-lg-5 py-5">
             <div class="row justify-content-start pb-3">
-              <div class="col-md-12 heading-section ftco-animate">
+              <div class="col-md-12 heading-section>
                 <span class="subheading"></span>
                 <h2
                   class="mb-4"
@@ -181,7 +189,7 @@
             </div>
             <div class="row">
               <div class="col-md-6">
-                <div class="media block-6 services d-block ftco-animate">
+                <div class="media block-6 services d-block">
                   <div class="icon">
                     <span class="flaticon-analysis"></span>
                   </div>
@@ -199,7 +207,7 @@
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="media block-6 services d-block ftco-animate">
+                <div class="media block-6 services d-block">
                   <div class="icon">
                     <span class="flaticon-analysis"></span>
                   </div>
@@ -221,12 +229,12 @@
       </div>
     </section>
 
-    <section class="bg-light" id="it-support-section">
+    <section class="bg-secondary text-light" id="it-support-section">
       <div class="container">
         <div class="row d-flex">
           <div class="col-md-6 col-lg-7 pl-lg-5 py-5">
             <div class="row justify-content-start pb-3">
-              <div class="col-md-12 heading-section ftco-animate">
+              <div class="col-md-12 heading-section ">
                 <span class="subheading"></span>
                 <h2
                   class="mb-4"
@@ -235,24 +243,28 @@
                   IT Support Generalist
                 </h2>
                 <p>
-                  I've owned a PC before IBM PC (yes, an Apple //e)
+                  I owned a PC before IBM PC came along
                 </p>
                 <p>
-                  I've been on AOL before AOL existed (PC-Link)
+                  I was on AOL before AOL existed (really)
                 </p>
                 <p>
-                  I've built my own PCs since the 286 days
+                  I've built my own PCs for decades, and maintain my own network
+                  and smarthome
                 </p>
                 <p>
-                  I done tech support for almost all hardware, from Android and
-                  iOS to Windows PCs
+                  I have a specialization certificate in IT Support from Google
                 </p>
-                <p>... and everything else in between.</p>
+                <p>
+                  I have a specialization certificate in IT Automation with
+                  Python from Google
+                </p>
+                <p>... and a few other things.</p>
               </div>
             </div>
             <div class="row">
               <div class="col-md-6">
-                <div class="media block-6 services d-block ftco-animate">
+                <div class="media block-6 services d-block ">
                   <div class="icon">
                     <span class="flaticon-analysis"></span>
                   </div>
@@ -270,7 +282,7 @@
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="media block-6 services d-block ftco-animate">
+                <div class="media block-6 services d-block ">
                   <div class="icon">
                     <span class="flaticon-analysis"></span>
                   </div>
@@ -300,182 +312,74 @@
       </div>
     </section>
 
-    <section class="ftco-section ftco-hireme">
+    <section class="" id="data-section">
       <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-lg-9 d-flex align-items-center ftco-animate">
-            <h2>I'm <span>Available</span> For Freelancing</h2>
-          </div>
-          <div class="col-md-4 col-lg-3 d-flex align-items-center ftco-animate">
-            <p class="mb-0">
-              <a href="#" class="btn btn-white py-4 px-5">Hire me</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section ftco-project" id="projects-section">
-      <div class="container">
-        <div class="row justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-            <span class="subheading">Accomplishments</span>
-            <h2 class="mb-4">Our Projects</h2>
-            <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <div
-              class="project img ftco-animate img-2 d-flex justify-content-center align-items-center"
-            >
-              <div class="overlay"></div>
-              <div class="text text-center p-4">
-                <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                <span>Web Design</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="row">
-              <div class="col-md-12">
-                <div
-                  class="project img ftco-animate d-flex justify-content-center align-items-center"
-                >
-                  <div class="overlay"></div>
-                  <div class="text text-center p-4">
-                    <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                    <span>Web Design</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div
-                  class="project img ftco-animate d-flex justify-content-center align-items-center"
-                >
-                  <div class="overlay"></div>
-                  <div class="text text-center p-4">
-                    <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                    <span>Web Design</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="project img ftco-animate d-flex justify-content-center align-items-center"
-            >
-              <div class="overlay"></div>
-              <div class="text text-center p-4">
-                <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                <span>Web Design</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-8">
-            <div
-              class="project img ftco-animate d-flex justify-content-center align-items-center"
-            >
-              <div class="overlay"></div>
-              <div class="text text-center p-4">
-                <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                <span>Web Design</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section bg-light" id="blog-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">Blog</span>
-            <h2 class="mb-4">Our Blog</h2>
-            <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
-            </p>
-          </div>
-        </div>
         <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry justify-content-end">
-              <a href="single.html" class="block-20"> </a>
-              <div class="text mt-3 float-right d-block">
-                <div class="d-flex align-items-center mb-3 meta">
-                  <p class="mb-0">
-                    <span class="mr-2">March 23, 2019</span>
-                    <a href="#" class="mr-2">Admin</a>
-                    <a href="#" class="meta-chat"
-                      ><span class="icon-chat"></span> 3</a
-                    >
-                  </p>
-                </div>
-                <h3 class="heading">
-                  <a href="single.html"
-                    >Why Lead Generation is Key for Business Growth</a
-                  >
-                </h3>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </p>
+          <div class="col-md-6 col-lg-5 d-flex">
+            <div class="img-about img d-flex align-items-stretch">
+              <!-- <div class="overlay"></div> -->
+              <div class="img d-flex align-self-stretch align-items-center">
+                <img src="images/about-1.jpg" class="img-fluid" />
               </div>
             </div>
           </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry justify-content-end">
-              <a href="single.html" class="block-20"> </a>
-              <div class="text mt-3 float-right d-block">
-                <div class="d-flex align-items-center mb-3 meta">
-                  <p class="mb-0">
-                    <span class="mr-2">March 23, 2019</span>
-                    <a href="#" class="mr-2">Admin</a>
-                    <a href="#" class="meta-chat"
-                      ><span class="icon-chat"></span> 3</a
-                    >
-                  </p>
-                </div>
-                <h3 class="heading">
-                  <a href="single.html"
-                    >Why Lead Generation is Key for Business Growth</a
-                  >
-                </h3>
+          <div class="col-md-6 col-lg-7 pl-lg-5 py-5">
+            <div class="row justify-content-start pb-3">
+              <div class="col-md-12 heading-section ">
+                <span class="subheading"></span>
+                <h2
+                  class="mb-4"
+                  style="font-size: 34px; text-transform: capitalize;"
+                >
+                  Data/base engineer
+                </h2>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                  I have a specialization certificate in Data Science from IBM.
                 </p>
+                <p>
+                  I have a specialization certificate in Applied AI from IBM
+                </p>
+                <p>
+                  I have coded custom database applications for manufacturing
+                  and logistics sectors
+                </p>
+                <p>
+                  I have coded data-driven dynamic websites
+                </p>
+                <p>... and a few other things</p>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry">
-              <a href="single.html" class="block-20"> </a>
-              <div class="text mt-3 float-right d-block">
-                <div class="d-flex align-items-center mb-3 meta">
-                  <p class="mb-0">
-                    <span class="mr-2">March 23, 2019</span>
-                    <a href="#" class="mr-2">Admin</a>
-                    <a href="#" class="meta-chat"
-                      ><span class="icon-chat"></span> 3</a
-                    >
-                  </p>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="media block-6 services d-block ">
+                  
+                  <div class="media-body">
+                    <h3 class="heading mb-3">Skills</h3>
+                    <ul>
+                      <li>Database admin</li>
+                      <li>SQL Server</li>
+                      <li>Python, pandas, etc</li>
+                      <li>Jupyter Notebook</li>
+                      <li>Machine Learning</li>
+                      <li>and more to come!</li>
+                    </ul>
+                  </div>
                 </div>
-                <h3 class="heading">
-                  <a href="single.html"
-                    >Why Lead Generation is Key for Business Growth</a
-                  >
-                </h3>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </p>
+              </div>
+              <div class="col-md-6">
+                <div class="media block-6 services d-block ">
+                 
+                  <div class="media-body">
+                    <h3 class="heading mb-3">Related Skills</h3>
+                    <ul>
+                      <li>Git / GitBash</li>
+                      <li>API integration</li>
+                      <li>Data wrangling</li>
+                      <li>Data scraping and mining</li>
+                      <li>Documentation</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -483,97 +387,52 @@
       </div>
     </section>
 
-    <section
-      class="ftco-section contact-section ftco-no-pb"
-      id="contact-section"
-    >
+        <section class="bg-secondary text-light" id="other-section">
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">Contact</span>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
-            </p>
-          </div>
+        <div class="row d-flex">
+          <div class="col-md-6 col-lg-5 d-flex py-5">
+            <h3>Other stuff 1</h3>
+            <P>Blah blah blah </P>
+            <P>Blah blah blah </P>
+            <P>Blah blah blah </P>
+            <P>Blah blah blah </P>
         </div>
+          <div class="col-md-6 col-lg-5 d-flex py-5">
+            <h3>Other stuff 2</h3>
 
-        <div class="row no-gutters block-9">
-          <div class="col-md-6 order-md-last d-flex">
-            <form action="#" class="bg-light p-4 p-md-5 contact-form">
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Your Name"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Your Email"
-                />
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject" />
-              </div>
-              <div class="form-group">
-                <textarea
-                  name=""
-                  id=""
-                  cols="30"
-                  rows="7"
-                  class="form-control"
-                  placeholder="Message"
-                ></textarea>
-              </div>
-              <div class="form-group">
-                <input
-                  type="submit"
-                  value="Send Message"
-                  class="btn btn-primary py-3 px-5"
-                />
-              </div>
-            </form>
-          </div>
-
-          <div class="col-md-6 d-flex">
-            <div class="img"></div>
-          </div>
         </div>
-      </div>
-    </section>
+</div>
+</div>
+        </section>
 
-    <footer class="ftco-footer ftco-section">
+    <footer class="ksc-footer ksc-section">
       <div class="container">
-        <div class="row mb-5">
+        <div class="row mb-5 py-4">
           <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Lets talk about</h2>
+            <div class="ksc-footer-widget mb-4">
+              <h2 class="ksc-heading-2">Lets talk about</h2>
               <p>
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts.
               </p>
               <ul
-                class="ftco-footer-social list-unstyled float-md-left float-lft mt-5"
+                class="ksc-footer-social list-unstyled float-md-left float-lft mt-5"
               >
-                <li class="ftco-animate">
+                <li class="">
                   <a href="#"><span class="icon-twitter"></span></a>
                 </li>
-                <li class="ftco-animate">
+                <li class="">
                   <a href="#"><span class="icon-facebook"></span></a>
                 </li>
-                <li class="ftco-animate">
+                <li class="">
                   <a href="#"><span class="icon-instagram"></span></a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
+            <div class="ksc-footer-widget mb-4 ml-md-4">
+              <h2 class="ksc-heading-2">Links</h2>
               <ul class="list-unstyled">
                 <li>
                   <a href="#"
@@ -603,65 +462,20 @@
               </ul>
             </div>
           </div>
+          
           <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#"
-                    ><span class="icon-long-arrow-right mr-2"></span>Web
-                    Design</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><span class="icon-long-arrow-right mr-2"></span>Web
-                    Development</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><span class="icon-long-arrow-right mr-2"></span>Business
-                    Strategy</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><span class="icon-long-arrow-right mr-2"></span>Data
-                    Analysis</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><span class="icon-long-arrow-right mr-2"></span>Graphic
-                    Design</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Have a Questions?</h2>
+            <div class="ksc-footer-widget mb-4">
+              <h2 class="ksc-heading-2">Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
                   <li>
-                    <span class="icon icon-map-marker"></span
-                    ><span class="text"
-                      >203 Fake St. Mountain View, San Francisco, California,
-                      USA</span
+                    <a href="#"
+                      ><i class="fas fa-phone-square-alt"></i><span class="text"> 1-415-413-8249</span></a
                     >
                   </li>
                   <li>
                     <a href="#"
-                      ><span class="icon icon-phone"></span
-                      ><span class="text">+2 392 3929 210</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="icon icon-envelope"></span
-                      ><span class="text">info@yourdomain.com</span></a
+                      ><i class="fas fa-envelope-square"></i><span class="text"> guyreviews77-hired@yahoo.com</span></a
                     >
                   </li>
                 </ul>
@@ -673,8 +487,9 @@
           <div class="col-md-12 text-center">
             <p>
               Photos by Sai Kiran Anagani and Campaign Creators on Unsplash
-              Theme inspired by Colorlib's Niko theme
+              // Theme inspired by Colorlib's Niko theme
             </p>
+            <P>This website uses jQuery, FontAwesome, Bootstrap 4, and HTML5+CSS3</P>
           </div>
         </div>
       </div>
